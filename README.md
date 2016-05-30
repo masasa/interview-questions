@@ -4,7 +4,7 @@ Throughout my job hunting I came across some intersting questions, some were eas
 
 I will describe the problems as they were described to me in shortly and link you to my solutions.
 
-##Permutation of another
+###Permutation Of Another String
 
 Given two strings you should return TRUE if one of them is permutation of another.<br>
 <b>Assumptions:</b> use additional space is allowed.
@@ -77,10 +77,10 @@ find the best actions to preform in each day and return actions that will yield 
 Example:
 <ul>
 	<li>
-	for the stock prices [10,20,4,13] the orders are [1,2,1,2] which stands for buy, sell all, buy and sell all.
+	for the stock prices | 10 | 20 | 4 | 13 | the orders should be | 1 | 2 | 1 | 2 | which stands for buy, sell all, buy and sell all.
 	</li>
 	<li>
-	for the stock prices [5,23,25,23,11] the orders are [1,1,2,3,3] which stands for buy, buy, sell all and do nothing<br>
+	for the stock prices | 5 | 23 | 25 | 23 | 11 | the orders should be | 1 | 1 | 2 | 3 | 3 | which stands for buy, buy, sell all and do nothing<br>
 	for two days in a row.
 	</li>
 </ul>
@@ -90,4 +90,12 @@ Example:
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/StocksRevenue.java "Solution").
 
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
+
+| 1 | 2 | 3 |
+| --- | --- | --- |
