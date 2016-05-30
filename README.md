@@ -7,7 +7,7 @@ I will describe the problems as they were described to me in shortly and link yo
 ##Permutation of another
 
 Given two strings you should return TRUE if one of them is permutation of another.<br>
-<b>Assumptions:</b>use additional space is allowed.
+<b>Assumptions:</b> use additional space is allowed.
 
 Example:
 <ul>
@@ -20,7 +20,7 @@ Attached solution for this problem [here](https://github.com/omrigami/interview-
 ##Network Transfer Of Binary Tree
 
 Given a binary tree (NOT a Binary Search Tree) we want to transfer it through the network in a way<br>that the other end of the network will be able to rebuild it exactly as it was before it was tranfered over the network.<br>
-<b>Assumptions:</b>use additional space is allowed.
+<b>Assumptions:</b> use additional space is allowed.
 
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/NetworkTransferBinaryTree.java "Solution").
 
@@ -42,6 +42,52 @@ Example:
 	</li>
 </ul>
 
-<b>Assumptions:</b>use additional space is allowed.
+<b>Assumptions:</b> use additional space is allowed.
 
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/FindNumberOfCountries.java "Solution").
+
+##Reverse Linked List
+
+Given a linked list made of nodes write a method to reverse the list.
+
+Example:
+<ul>
+	<li>
+	for the list [3] --> [4] --> [7] the method shall return [7] --> [4] --> [3]
+	</li>
+</ul>
+
+<b>Assumptions:</b> Space Complexity of O(1) is allowed.
+
+Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/reverseLinkedList.java "Solution").
+
+
+##Find Best Stock Orders Based On Future Knowledge
+
+Given an array of stocks prices in array of days (stocks[i] is stock price in day i) should<br>
+find the best actions to preform in each day and return actions that will yield the maximal revenue.<br><br>
+
+<b>Possible orders for each day:</b>
+<ul>
+	<li>1. Buy 1 stock</li>
+	<li>2. Sell all stocks you have</li>
+	<li>3. Do nothing</li>
+</ul>
+
+Example:
+<ul>
+	<li>
+	for the stock prices [10,20,4,13] the orders are [1,2,1,2] which stands for buy, sell all, buy and sell all.
+	</li>
+	<li>
+	for the stock prices [5,23,25,23,11] the orders are [1,1,2,3,3] which stands for buy, buy, sell all and do nothing<br>
+	for two days in a row.
+	</li>
+</ul>
+
+<b>Assumptions:</b> Additional Space Complexity of O(n) is allowed.
+
+Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/StocksRevenue.java "Solution").
+
+
+
