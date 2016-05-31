@@ -4,7 +4,7 @@ Throughout my job hunting I came across some intersting questions, some were eas
 
 I will describe the problems as they were described to me in shortly and link you to my solutions.
 
-###Permutation Of Another String
+##Permutation Of Another String
 
 Given two strings you should return TRUE if one of them is permutation of another.<br>
 <b>Assumptions:</b> use additional space is allowed.
@@ -90,4 +90,4 @@ Example:
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/StocksRevenue.java "Solution").
 
 
-
+##Find If Path To End Using Jumps Exist
