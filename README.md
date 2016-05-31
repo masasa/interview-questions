@@ -42,7 +42,7 @@ Example:
 	</li>
 </ul>
 
-<b>Assumptions:</b> use additional space is allowed.
+<b>Assumptions:</b> Space Complexity of O(NxM) is allowed.
 
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/FindNumberOfCountries.java "Solution").
 
@@ -64,8 +64,8 @@ Attached solution for this problem [here](https://github.com/omrigami/interview-
 
 ##Find Best Stock Orders Based On Future Knowledge
 
-Given an array of stocks prices in array of days (stocks[i] is stock price in day i) should<br>
-find the best actions to preform in each day and return actions that will yield the maximal revenue.<br><br>
+Given an array of stocks prices in array of N days (stocks[i] is stock price in day i) should<br>
+find the best actions to preform in each day and return actions that will yield the maximal revenue.
 
 <b>Possible orders for each day:</b>
 <ul>
@@ -85,9 +85,26 @@ Example:
 	</li>
 </ul>
 
-<b>Assumptions:</b> Additional Space Complexity of O(n) is allowed.
+<b>Assumptions:</b> Additional Space Complexity of O(N) is allowed.
 
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/StocksRevenue.java "Solution").
 
 
-##Find If Path To End Using Jumps Exist
+##Find If Path To Last Cell Using Jumps Exist
+
+Given an array of N positive integers return true if it's possible to reach from the first cell to the last cell using jumps to the right<br>
+and left in size of the cell's content, otherwise false.
+
+Example:
+<ul>
+	<li>
+	for the the input [2,2,1,4] you can start jump 2 steps right to index #2 then jump 1 step left to cell #1 and then<br>
+	jump 2 cells right to cell #3 which is the last cell, so the method should return true.
+	</li>
+	<li>
+	for the input [2,1,1,5,6] it's possible to see that after jumping 2 steps right form the first cell you will either<br>
+	stuck in a loop or get to a cell that can't reach no where in the array bounds.
+	</li>
+</ul>
+
+<b>Assumptions:</b> Additional Space Complexity of O(N) is allowed.
