@@ -110,3 +110,18 @@ Example:
 <b>Assumptions:</b> Additional Space Complexity of O(N) is allowed.
 
 Attached solution for this problem [here](https://github.com/omrigami/interview-questions/blob/master/existPathOfJumpsToEnd.java "Solution").
+
+##Mirror Binary Tree
+
+Given a root of a binary tree (Node t) return the mirror tree of that tree, such that each node is repleaced with his brother.
+
+Example:
+<ul>
+	<li>
+	for the binary tree: (4 2 1) will be returned the binary tree (4 1 2)
+	</li>
+	<li>
+	for the binary tree: (4 (2 4 7) 1) will be returned the binary tree (4 1 (2 7 4))	</li>
+</ul>
+
+<b>Assumptions:</b> Additional Space Complexity of O(1) is allowed.
