@@ -5,17 +5,23 @@ public Node reverseLinkedList(Node head){
 
 	Node prev = null;
 	Node curr = head;
-	Node next = head.next;
+	Node next = null;
 
 	while(curr != null){
+		
+		// saving next node
+		next = curr.next;
+
 		// flipping the connect edge
 		curr.next = prev;
 
 		// move the pointers
 		prev = curr;
 		curr = next;
-		next = curr.next;
 	}
 
-	return curr;
+	return prev;
 }
+
+  1  2  null
+<-p<-p  c 
