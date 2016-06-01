@@ -22,6 +22,3 @@ public Node reverseLinkedList(Node head){
 
 	return prev;
 }
-
-  1  2  null
-<-p<-p  c 
